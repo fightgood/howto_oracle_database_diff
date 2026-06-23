@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#ffffff" stroke="#9aa5b1"/>
+  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
+  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
+  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 3 of 4</text>
+  <text x="16" y="62" font-size="13" fill="#555">Filter the specific objects to include for each object type (optional).</text>
+
+  <rect x="40" y="80" width="120" height="26" fill="#2f6fed"/>
+  <text x="56" y="98" font-size="12" fill="#fff">Tables</text>
+  <rect x="160" y="80" width="120" height="26" fill="#f4f6f8" stroke="#d3d9e0"/>
+  <text x="184" y="98" font-size="12" fill="#666">Views</text>
+  <rect x="280" y="80" width="120" height="26" fill="#f4f6f8" stroke="#d3d9e0"/>
+  <text x="296" y="98" font-size="12" fill="#666">Functions</text>
+
+  <text x="40" y="132" font-size="12" fill="#222">Lookup:</text>
+  <rect x="100" y="118" width="200" height="22" fill="#ffffff" stroke="#9aa5b1"/>
+  <text x="108" y="134" font-size="11" fill="#10366b">EMP%</text>
+
+  <text x="40" y="158" font-size="11" fill="#888">Available Objects</text>
+  <rect x="40" y="166" width="280" height="160" fill="#ffffff" stroke="#9aa5b1"/>
+  <text x="52" y="184" font-size="11" fill="#333">CUSTOMER</text>
+  <text x="52" y="202" font-size="11" fill="#333">DEPARTMENT</text>
+  <text x="52" y="220" font-size="11" fill="#333">ORDER_ITEM</text>
+  <text x="52" y="238" font-size="11" fill="#333">PAYMENT_LOG</text>
+
+  <polygon points="335,200 365,200 365,190 385,210 365,230 365,220 335,220" fill="#2f6fed"/>
+  <text x="335" y="252" font-size="9" fill="#888">Move &gt;&gt;</text>
+
+  <text x="420" y="158" font-size="11" fill="#888">Selected Objects</text>
+  <rect x="420" y="166" width="280" height="160" fill="#eef4ff" stroke="#9aa5b1"/>
+  <text x="432" y="184" font-size="11" fill="#10366b">EMPLOYEE</text>
+  <text x="432" y="202" font-size="11" fill="#10366b">EMP_BONUS</text>
+  <text x="432" y="220" font-size="11" fill="#10366b">EMP_HISTORY</text>
+
+  <rect x="40" y="338" width="660" height="30" fill="#fff7e6" stroke="#e3c576"/>
+  <text x="50" y="357" font-size="11" fill="#8a6d1f">ถ้าไม่เลือกรายการใดใน "Selected Objects" ระบบจะถือว่าเปรียบเทียบ "ทุก Object" ของชนิดนั้นโดยอัตโนมัติ</text>
+
+  <line x1="0" y1="378" x2="800" y2="378" stroke="#d3d9e0"/>
+  <text x="20" y="404" font-size="12" fill="#888">Help</text>
+  <rect x="560" y="386" width="60" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
+  <text x="572" y="402" font-size="11" fill="#555">&lt; Back</text>
+  <rect x="628" y="386" width="60" height="24" fill="#2f6fed"/>
+  <text x="638" y="402" font-size="11" fill="#fff">Next &gt;</text>
+  <rect x="696" y="386" width="46" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
+  <text x="706" y="402" font-size="11" fill="#555">Finish</text>
+  <rect x="750" y="386" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
+  <text x="758" y="402" font-size="11" fill="#555">Cancel</text>
+</svg>

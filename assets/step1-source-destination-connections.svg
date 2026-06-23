@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="420" fill="#ffffff" stroke="#9aa5b1"/>
+  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
+  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
+  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 1 of 4</text>
+  <text x="16" y="62" font-size="13" fill="#555">Select the Source connection/schema and the Destination connection/schema to compare.</text>
+
+  <text x="40" y="110" font-size="13" fill="#222">Source Connection:</text>
+  <rect x="230" y="94" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
+  <text x="240" y="112" font-size="12" fill="#10366b">DEV_CONNECTION</text>
+  <polygon points="535,100 545,100 540,110" fill="#555"/>
+
+  <text x="40" y="156" font-size="13" fill="#222">Source Schema:</text>
+  <rect x="230" y="140" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
+  <text x="240" y="158" font-size="12" fill="#10366b">APP_DEV</text>
+  <polygon points="535,146 545,146 540,156" fill="#555"/>
+
+  <line x1="40" y1="190" x2="760" y2="190" stroke="#e5e7eb"/>
+
+  <text x="40" y="226" font-size="13" fill="#222">Destination Connection:</text>
+  <rect x="230" y="210" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
+  <text x="240" y="228" font-size="12" fill="#a3221c">PROD_CONNECTION</text>
+  <polygon points="535,216 545,216 540,226" fill="#555"/>
+
+  <text x="40" y="272" font-size="13" fill="#222">Destination Schema:</text>
+  <rect x="230" y="256" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
+  <text x="240" y="274" font-size="12" fill="#a3221c">APP_PROD</text>
+  <polygon points="535,262 545,262 540,272" fill="#555"/>
+
+  <rect x="40" y="312" width="700" height="50" fill="#fff7e6" stroke="#e3c576"/>
+  <text x="52" y="332" font-size="11" fill="#8a6d1f">Tip: Source = ฝั่งที่ถือว่าเป็น "ของจริง/ต้นแบบ" (เช่น Dev ที่แก้ไขล่าสุด)</text>
+  <text x="52" y="348" font-size="11" fill="#8a6d1f">Destination = ฝั่งที่จะถูกเทียบว่าขาด/เกิน/ต่างจาก Source อะไรบ้าง</text>
+
+  <line x1="0" y1="378" x2="800" y2="378" stroke="#d3d9e0"/>
+  <text x="20" y="404" font-size="12" fill="#888">Help</text>
+  <rect x="560" y="386" width="60" height="24" fill="#e5e7eb" stroke="#aab2bd"/>
+  <text x="568" y="402" font-size="11" fill="#999">&lt; Back</text>
+  <rect x="628" y="386" width="60" height="24" fill="#2f6fed"/>
+  <text x="638" y="402" font-size="11" fill="#fff">Next &gt;</text>
+  <rect x="696" y="386" width="46" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
+  <text x="706" y="402" font-size="11" fill="#555">Finish</text>
+  <rect x="750" y="386" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
+  <text x="758" y="402" font-size="11" fill="#555">Cancel</text>
+</svg>

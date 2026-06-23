@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="460" fill="#ffffff" stroke="#9aa5b1"/>
+  <rect x="0" y="0" width="800" height="36" fill="#2f3b52"/>
+  <text x="14" y="24" fill="#ffffff" font-size="14" font-weight="bold">Diff Report : APP_DEV vs APP_PROD</text>
+
+  <rect x="0" y="36" width="800" height="32" fill="#eef1f5" stroke="#d3d9e0"/>
+  <circle cx="26" cy="52" r="10" fill="#2eb872"/>
+  <text x="22" y="56" font-size="10" fill="#fff" text-anchor="middle">SQL</text>
+  <text x="46" y="56" font-size="10" fill="#666">Generate Diff Script</text>
+  <rect x="170" y="44" width="14" height="14" fill="none" stroke="#9aa5b1"/>
+  <text x="190" y="55" font-size="11" fill="#555">Show Equal Objects</text>
+  <text x="340" y="55" font-size="11" fill="#888">🔍 Filter:</text>
+  <rect x="390" y="44" width="160" height="18" fill="#fff" stroke="#aab2bd"/>
+
+  <rect x="0" y="68" width="800" height="26" fill="#dfe4ea"/>
+  <text x="16" y="86" font-size="11" font-weight="bold" fill="#333">Object Name</text>
+  <text x="260" y="86" font-size="11" font-weight="bold" fill="#333">Type</text>
+  <text x="400" y="86" font-size="11" font-weight="bold" fill="#333">Status</text>
+  <text x="560" y="86" font-size="11" font-weight="bold" fill="#333">Action</text>
+
+  <rect x="0" y="94" width="800" height="30" fill="#ffe5e3"/>
+  <text x="16" y="114" font-size="12" fill="#7a1f1a">DEPARTMENT</text>
+  <text x="260" y="114" font-size="12" fill="#7a1f1a">TABLE</text>
+  <text x="400" y="114" font-size="12" fill="#7a1f1a" font-weight="bold">Only in Source (Dev)</text>
+  <text x="560" y="114" font-size="11" fill="#7a1f1a">Create in Prod</text>
+
+  <rect x="0" y="124" width="800" height="30" fill="#fff3cd"/>
+  <text x="16" y="144" font-size="12" fill="#7a5d00">EMPLOYEE</text>
+  <text x="260" y="144" font-size="12" fill="#7a5d00">TABLE</text>
+  <text x="400" y="144" font-size="12" fill="#7a5d00" font-weight="bold">Different</text>
+  <text x="560" y="144" font-size="11" fill="#7a5d00">Alter columns</text>
+
+  <rect x="0" y="154" width="800" height="30" fill="#dceeff"/>
+  <text x="16" y="174" font-size="12" fill="#1a4a7a">BONUS_VIEW</text>
+  <text x="260" y="174" font-size="12" fill="#1a4a7a">VIEW</text>
+  <text x="400" y="174" font-size="12" fill="#1a4a7a" font-weight="bold">Only in Destination (Prod)</text>
+  <text x="560" y="174" font-size="11" fill="#1a4a7a">Review before drop</text>
+
+  <rect x="0" y="184" width="800" height="30" fill="#fff3cd"/>
+  <text x="16" y="204" font-size="12" fill="#7a5d00">CALC_SALARY</text>
+  <text x="260" y="204" font-size="12" fill="#7a5d00">FUNCTION</text>
+  <text x="400" y="204" font-size="12" fill="#7a5d00" font-weight="bold">Different</text>
+  <text x="560" y="204" font-size="11" fill="#7a5d00">Replace source code</text>
+
+  <rect x="0" y="214" width="800" height="26" fill="#f3f5f7"/>
+  <text x="16" y="232" font-size="11" fill="#9aa0a6">EMP_PK</text>
+  <text x="260" y="232" font-size="11" fill="#9aa0a6">INDEX</text>
+  <text x="400" y="232" font-size="11" fill="#9aa0a6">Equal</text>
+  <text x="560" y="232" font-size="11" fill="#bbb">— (ไม่ต้องทำอะไร)</text>
+
+  <rect x="40" y="260" width="720" height="180" fill="#f9fafb" stroke="#d3d9e0"/>
+  <text x="54" y="282" font-size="11" font-weight="bold" fill="#333">รายละเอียดของ Object ที่เลือก (EMPLOYEE) — Source vs Destination</text>
+  <text x="54" y="306" font-size="11" fill="#666">SOURCE (Dev)</text>
+  <text x="420" y="306" font-size="11" fill="#666">DESTINATION (Prod)</text>
+  <text x="54" y="326" font-size="11" fill="#333">EMP_ID        NUMBER(10)</text>
+  <text x="420" y="326" font-size="11" fill="#333">EMP_ID        NUMBER(10)</text>
+  <text x="54" y="346" font-size="11" fill="#a3221c" font-weight="bold">EMAIL         VARCHAR2(100)</text>
+  <text x="420" y="346" font-size="11" fill="#999">(ไม่มี Column นี้)</text>
+  <text x="54" y="366" font-size="11" fill="#333">HIRE_DATE     DATE</text>
+  <text x="420" y="366" font-size="11" fill="#333">HIRE_DATE     DATE</text>
+  <text x="54" y="386" font-size="11" fill="#b8860b" font-weight="bold">SALARY        NUMBER(12,2)</text>
+  <text x="420" y="386" font-size="11" fill="#b8860b" font-weight="bold">SALARY        NUMBER(10,2)</text>
+  <text x="54" y="412" font-size="10" fill="#888">สีแดง = Column มีฝั่ง Source แต่ไม่มีฝั่ง Destination</text>
+  <text x="420" y="412" font-size="10" fill="#888">สีเหลือง/น้ำตาล = มีทั้งคู่แต่ Data Type ต่างกัน</text>
+</svg>

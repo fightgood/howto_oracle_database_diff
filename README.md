@@ -52,36 +52,7 @@
 
 จากเมนูหลักของโปรแกรม ไปที่ **Tools > Database Diff...**
 
-<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="260" fill="#ffffff" stroke="#9aa5b1" stroke-width="1"/>
-  <rect x="0" y="0" width="800" height="34" fill="#2f3b52"/>
-  <text x="14" y="22" fill="#ffffff" font-size="14">Oracle SQL Developer</text>
-  <rect x="0" y="34" width="800" height="30" fill="#eef1f5" stroke="#d3d9e0"/>
-  <text x="14" y="54" font-size="13" fill="#333">File</text>
-  <text x="64" y="54" font-size="13" fill="#333">Edit</text>
-  <text x="114" y="54" font-size="13" fill="#333">View</text>
-  <text x="170" y="54" font-size="13" fill="#333">Navigate</text>
-  <text x="250" y="54" font-size="13" fill="#333">Run</text>
-  <text x="300" y="54" font-size="13" fill="#333">Versioning</text>
-  <rect x="385" y="36" width="60" height="26" fill="#cfe0ff"/>
-  <text x="395" y="54" font-size="13" font-weight="bold" fill="#10366b">Tools</text>
-  <text x="460" y="54" font-size="13" fill="#333">Window</text>
-  <text x="525" y="54" font-size="13" fill="#333">Help</text>
-  <rect x="385" y="62" width="230" height="190" fill="#ffffff" stroke="#9aa5b1"/>
-  <text x="398" y="84" font-size="12" fill="#333">Preferences...</text>
-  <line x1="386" y1="92" x2="613" y2="92" stroke="#e5e7eb"/>
-  <text x="398" y="110" font-size="12" fill="#333">SQL*Plus</text>
-  <line x1="386" y1="118" x2="613" y2="118" stroke="#e5e7eb"/>
-  <text x="398" y="136" font-size="12" fill="#333">Database Copy...</text>
-  <line x1="386" y1="144" x2="613" y2="144" stroke="#e5e7eb"/>
-  <rect x="386" y="148" width="227" height="24" fill="#2f6fed"/>
-  <text x="398" y="165" font-size="12" font-weight="bold" fill="#ffffff">Database Diff...</text>
-  <line x1="386" y1="172" x2="613" y2="172" stroke="#e5e7eb"/>
-  <text x="398" y="190" font-size="12" fill="#333">Database Export...</text>
-  <line x1="386" y1="198" x2="613" y2="198" stroke="#e5e7eb"/>
-  <text x="398" y="216" font-size="12" fill="#333">Compare/Synchronize...</text>
-  <polygon points="370,158 386,150 386,166" fill="#2f6fed"/>
-</svg>
+![เมนู Tools > Database Diff](assets/menu-tools-database-diff.svg)
 
 **คำอธิบาย:**
 
@@ -94,50 +65,7 @@
 
 ## 4. Step 1: Source and Destination Connections
 
-<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="420" fill="#ffffff" stroke="#9aa5b1"/>
-  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
-  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
-  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 1 of 4</text>
-  <text x="16" y="62" font-size="13" fill="#555">Select the Source connection/schema and the Destination connection/schema to compare.</text>
-
-  <text x="40" y="110" font-size="13" fill="#222">Source Connection:</text>
-  <rect x="230" y="94" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
-  <text x="240" y="112" font-size="12" fill="#10366b">DEV_CONNECTION</text>
-  <polygon points="535,100 545,100 540,110" fill="#555"/>
-
-  <text x="40" y="156" font-size="13" fill="#222">Source Schema:</text>
-  <rect x="230" y="140" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
-  <text x="240" y="158" font-size="12" fill="#10366b">APP_DEV</text>
-  <polygon points="535,146 545,146 540,156" fill="#555"/>
-
-  <line x1="40" y1="190" x2="760" y2="190" stroke="#e5e7eb"/>
-
-  <text x="40" y="226" font-size="13" fill="#222">Destination Connection:</text>
-  <rect x="230" y="210" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
-  <text x="240" y="228" font-size="12" fill="#a3221c">PROD_CONNECTION</text>
-  <polygon points="535,216 545,216 540,226" fill="#555"/>
-
-  <text x="40" y="272" font-size="13" fill="#222">Destination Schema:</text>
-  <rect x="230" y="256" width="320" height="26" fill="#f4f6f8" stroke="#9aa5b1"/>
-  <text x="240" y="274" font-size="12" fill="#a3221c">APP_PROD</text>
-  <polygon points="535,262 545,262 540,272" fill="#555"/>
-
-  <rect x="40" y="312" width="700" height="50" fill="#fff7e6" stroke="#e3c576"/>
-  <text x="52" y="332" font-size="11" fill="#8a6d1f">Tip: Source = ฝั่งที่ถือว่าเป็น "ของจริง/ต้นแบบ" (เช่น Dev ที่แก้ไขล่าสุด)</text>
-  <text x="52" y="348" font-size="11" fill="#8a6d1f">Destination = ฝั่งที่จะถูกเทียบว่าขาด/เกิน/ต่างจาก Source อะไรบ้าง</text>
-
-  <line x1="0" y1="378" x2="800" y2="378" stroke="#d3d9e0"/>
-  <text x="20" y="404" font-size="12" fill="#888">Help</text>
-  <rect x="560" y="386" width="60" height="24" fill="#e5e7eb" stroke="#aab2bd"/>
-  <text x="568" y="402" font-size="11" fill="#999">&lt; Back</text>
-  <rect x="628" y="386" width="60" height="24" fill="#2f6fed"/>
-  <text x="638" y="402" font-size="11" fill="#fff">Next &gt;</text>
-  <rect x="696" y="386" width="46" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="706" y="402" font-size="11" fill="#555">Finish</text>
-  <rect x="750" y="386" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="758" y="402" font-size="11" fill="#555">Cancel</text>
-</svg>
+![Step 1: Source and Destination Connections](assets/step1-source-destination-connections.svg)
 
 **คำอธิบายแต่ละช่อง:**
 
@@ -156,66 +84,7 @@
 
 ## 5. Step 2: Object Types to Compare
 
-<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="420" fill="#ffffff" stroke="#9aa5b1"/>
-  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
-  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
-  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 2 of 4</text>
-  <text x="16" y="62" font-size="13" fill="#555">Select the object types you want to include in the comparison.</text>
-
-  <g font-size="13" fill="#222">
-    <rect x="50" y="86" width="16" height="16" fill="#2f6fed"/><text x="58" y="98" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="99">Tables</text>
-    <rect x="50" y="116" width="16" height="16" fill="#2f6fed"/><text x="58" y="128" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="129">Views</text>
-    <rect x="50" y="146" width="16" height="16" fill="#2f6fed"/><text x="58" y="158" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="159">Indexes</text>
-    <rect x="50" y="176" width="16" height="16" fill="#2f6fed"/><text x="58" y="188" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="189">Sequences</text>
-    <rect x="50" y="206" width="16" height="16" fill="#2f6fed"/><text x="58" y="218" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="219">Synonyms</text>
-    <rect x="50" y="236" width="16" height="16" fill="#2f6fed"/><text x="58" y="248" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="249">Triggers</text>
-    <rect x="50" y="266" width="16" height="16" fill="#2f6fed"/><text x="58" y="278" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="78" y="279">Database Links</text>
-
-    <rect x="320" y="86" width="16" height="16" fill="#2f6fed"/><text x="328" y="98" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="348" y="99">Procedures</text>
-    <rect x="320" y="116" width="16" height="16" fill="#2f6fed"/><text x="328" y="128" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="348" y="129">Functions</text>
-    <rect x="320" y="146" width="16" height="16" fill="#2f6fed"/><text x="328" y="158" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="348" y="159">Package Specs</text>
-    <rect x="320" y="176" width="16" height="16" fill="#2f6fed"/><text x="328" y="188" fill="#fff" font-size="11" text-anchor="middle">✓</text>
-    <text x="348" y="189">Package Bodies</text>
-    <rect x="320" y="206" width="16" height="16" fill="none" stroke="#9aa5b1"/>
-    <text x="348" y="219" fill="#999">Types</text>
-    <rect x="320" y="236" width="16" height="16" fill="none" stroke="#9aa5b1"/>
-    <text x="348" y="249" fill="#999">Materialized Views</text>
-    <rect x="320" y="266" width="16" height="16" fill="none" stroke="#9aa5b1"/>
-    <text x="348" y="279" fill="#999">Materialized View Logs</text>
-  </g>
-
-  <rect x="560" y="86" width="190" height="200" fill="#f4f6f8" stroke="#d3d9e0"/>
-  <text x="572" y="106" font-size="11" fill="#555">เลือกทั้งหมด:</text>
-  <rect x="572" y="116" width="80" height="22" fill="#ffffff" stroke="#aab2bd"/>
-  <text x="582" y="131" font-size="10" fill="#444">Select All</text>
-  <rect x="658" y="116" width="80" height="22" fill="#ffffff" stroke="#aab2bd"/>
-  <text x="668" y="131" font-size="10" fill="#444">Deselect All</text>
-  <text x="572" y="160" font-size="10" fill="#888">งานเทียบ Structure ทั่วไป</text>
-  <text x="572" y="174" font-size="10" fill="#888">แนะนำติ๊กทุกตัวยกเว้น</text>
-  <text x="572" y="188" font-size="10" fill="#888">Materialized View ถ้าไม่ได้ใช้งาน</text>
-
-  <line x1="0" y1="378" x2="800" y2="378" stroke="#d3d9e0"/>
-  <text x="20" y="404" font-size="12" fill="#888">Help</text>
-  <rect x="560" y="386" width="60" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="572" y="402" font-size="11" fill="#555">&lt; Back</text>
-  <rect x="628" y="386" width="60" height="24" fill="#2f6fed"/>
-  <text x="638" y="402" font-size="11" fill="#fff">Next &gt;</text>
-  <rect x="696" y="386" width="46" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="706" y="402" font-size="11" fill="#555">Finish</text>
-  <rect x="750" y="386" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="758" y="402" font-size="11" fill="#555">Cancel</text>
-</svg>
+![Step 2: Object Types to Compare](assets/step2-object-types.svg)
 
 **ความหมายของแต่ละ Object Type ที่เลือกได้ (Checkbox):**
 
@@ -241,54 +110,7 @@
 
 ## 6. Step 3: Specify Objects
 
-<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="420" fill="#ffffff" stroke="#9aa5b1"/>
-  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
-  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
-  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 3 of 4</text>
-  <text x="16" y="62" font-size="13" fill="#555">Filter the specific objects to include for each object type (optional).</text>
-
-  <rect x="40" y="80" width="120" height="26" fill="#2f6fed"/>
-  <text x="56" y="98" font-size="12" fill="#fff">Tables</text>
-  <rect x="160" y="80" width="120" height="26" fill="#f4f6f8" stroke="#d3d9e0"/>
-  <text x="184" y="98" font-size="12" fill="#666">Views</text>
-  <rect x="280" y="80" width="120" height="26" fill="#f4f6f8" stroke="#d3d9e0"/>
-  <text x="296" y="98" font-size="12" fill="#666">Functions</text>
-
-  <text x="40" y="132" font-size="12" fill="#222">Lookup:</text>
-  <rect x="100" y="118" width="200" height="22" fill="#ffffff" stroke="#9aa5b1"/>
-  <text x="108" y="134" font-size="11" fill="#10366b">EMP%</text>
-
-  <text x="40" y="158" font-size="11" fill="#888">Available Objects</text>
-  <rect x="40" y="166" width="280" height="160" fill="#ffffff" stroke="#9aa5b1"/>
-  <text x="52" y="184" font-size="11" fill="#333">CUSTOMER</text>
-  <text x="52" y="202" font-size="11" fill="#333">DEPARTMENT</text>
-  <text x="52" y="220" font-size="11" fill="#333">ORDER_ITEM</text>
-  <text x="52" y="238" font-size="11" fill="#333">PAYMENT_LOG</text>
-
-  <polygon points="335,200 365,200 365,190 385,210 365,230 365,220 335,220" fill="#2f6fed"/>
-  <text x="335" y="252" font-size="9" fill="#888">Move &gt;&gt;</text>
-
-  <text x="420" y="158" font-size="11" fill="#888">Selected Objects</text>
-  <rect x="420" y="166" width="280" height="160" fill="#eef4ff" stroke="#9aa5b1"/>
-  <text x="432" y="184" font-size="11" fill="#10366b">EMPLOYEE</text>
-  <text x="432" y="202" font-size="11" fill="#10366b">EMP_BONUS</text>
-  <text x="432" y="220" font-size="11" fill="#10366b">EMP_HISTORY</text>
-
-  <rect x="40" y="338" width="660" height="30" fill="#fff7e6" stroke="#e3c576"/>
-  <text x="50" y="357" font-size="11" fill="#8a6d1f">ถ้าไม่เลือกรายการใดใน "Selected Objects" ระบบจะถือว่าเปรียบเทียบ "ทุก Object" ของชนิดนั้นโดยอัตโนมัติ</text>
-
-  <line x1="0" y1="378" x2="800" y2="378" stroke="#d3d9e0"/>
-  <text x="20" y="404" font-size="12" fill="#888">Help</text>
-  <rect x="560" y="386" width="60" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="572" y="402" font-size="11" fill="#555">&lt; Back</text>
-  <rect x="628" y="386" width="60" height="24" fill="#2f6fed"/>
-  <text x="638" y="402" font-size="11" fill="#fff">Next &gt;</text>
-  <rect x="696" y="386" width="46" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="706" y="402" font-size="11" fill="#555">Finish</text>
-  <rect x="750" y="386" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="758" y="402" font-size="11" fill="#555">Cancel</text>
-</svg>
+![Step 3: Specify Objects](assets/step3-specify-objects.svg)
 
 **คำอธิบายแต่ละองค์ประกอบ:**
 
@@ -308,44 +130,7 @@
 
 ## 7. Step 4: Summary
 
-<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="380" fill="#ffffff" stroke="#9aa5b1"/>
-  <rect x="0" y="0" width="800" height="40" fill="#2f3b52"/>
-  <text x="16" y="26" fill="#ffffff" font-size="15" font-weight="bold">Database Diff Wizard</text>
-  <text x="650" y="26" fill="#c8d3e6" font-size="12">Step 4 of 4</text>
-  <text x="16" y="62" font-size="13" fill="#555">Review your selections, then click Finish to run the comparison.</text>
-
-  <rect x="40" y="84" width="720" height="260" fill="#f9fafb" stroke="#d3d9e0"/>
-  <text x="56" y="108" font-size="12" fill="#333" font-weight="bold">Source:</text>
-  <text x="160" y="108" font-size="12" fill="#10366b">DEV_CONNECTION  /  Schema: APP_DEV</text>
-
-  <text x="56" y="132" font-size="12" fill="#333" font-weight="bold">Destination:</text>
-  <text x="160" y="132" font-size="12" fill="#a3221c">PROD_CONNECTION  /  Schema: APP_PROD</text>
-
-  <text x="56" y="160" font-size="12" fill="#333" font-weight="bold">Object Types:</text>
-  <text x="160" y="160" font-size="11" fill="#444">Tables, Views, Indexes, Sequences, Synonyms,</text>
-  <text x="160" y="176" font-size="11" fill="#444">Triggers, Procedures, Functions, Package Specs,</text>
-  <text x="160" y="192" font-size="11" fill="#444">Package Bodies</text>
-
-  <text x="56" y="218" font-size="12" fill="#333" font-weight="bold">Filtered Objects:</text>
-  <text x="160" y="218" font-size="11" fill="#444">Tables → EMPLOYEE, EMP_BONUS, EMP_HISTORY</text>
-  <text x="160" y="234" font-size="11" fill="#444">Views, Indexes, ... → All Objects</text>
-
-  <text x="56" y="266" font-size="12" fill="#333" font-weight="bold">Note:</text>
-  <text x="160" y="266" font-size="11" fill="#444">การเปรียบเทียบจะใช้เวลาขึ้นกับขนาด Schema</text>
-  <text x="160" y="282" font-size="11" fill="#444">และจำนวน Object ที่เลือกไว้</text>
-
-  <line x1="0" y1="346" x2="800" y2="346" stroke="#d3d9e0"/>
-  <text x="20" y="372" font-size="12" fill="#888">Help</text>
-  <rect x="560" y="354" width="60" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="572" y="370" font-size="11" fill="#555">&lt; Back</text>
-  <rect x="628" y="354" width="60" height="24" fill="#e5e7eb" stroke="#aab2bd"/>
-  <text x="636" y="370" font-size="11" fill="#999">Next &gt;</text>
-  <rect x="696" y="354" width="46" height="24" fill="#2f6fed"/>
-  <text x="704" y="370" font-size="11" fill="#fff">Finish</text>
-  <rect x="750" y="354" width="40" height="24" fill="#f4f6f8" stroke="#aab2bd"/>
-  <text x="758" y="370" font-size="11" fill="#555">Cancel</text>
-</svg>
+![Step 4: Summary](assets/step4-summary.svg)
 
 **คำอธิบาย:**
 
@@ -359,71 +144,7 @@
 
 หลังจาก Compare เสร็จ จะเปิดหน้าต่าง **Diff Report** ขึ้นมาแสดงผลเป็นรายการ Object พร้อมสถานะ
 
-<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
-  <rect x="0" y="0" width="800" height="460" fill="#ffffff" stroke="#9aa5b1"/>
-  <rect x="0" y="0" width="800" height="36" fill="#2f3b52"/>
-  <text x="14" y="24" fill="#ffffff" font-size="14" font-weight="bold">Diff Report : APP_DEV vs APP_PROD</text>
-
-  <rect x="0" y="36" width="800" height="32" fill="#eef1f5" stroke="#d3d9e0"/>
-  <circle cx="26" cy="52" r="10" fill="#2eb872"/>
-  <text x="22" y="56" font-size="10" fill="#fff" text-anchor="middle">SQL</text>
-  <text x="46" y="56" font-size="10" fill="#666">Generate Diff Script</text>
-  <rect x="170" y="44" width="14" height="14" fill="none" stroke="#9aa5b1"/>
-  <text x="190" y="55" font-size="11" fill="#555">Show Equal Objects</text>
-  <text x="340" y="55" font-size="11" fill="#888">🔍 Filter:</text>
-  <rect x="390" y="44" width="160" height="18" fill="#fff" stroke="#aab2bd"/>
-
-  <rect x="0" y="68" width="800" height="26" fill="#dfe4ea"/>
-  <text x="16" y="86" font-size="11" font-weight="bold" fill="#333">Object Name</text>
-  <text x="260" y="86" font-size="11" font-weight="bold" fill="#333">Type</text>
-  <text x="400" y="86" font-size="11" font-weight="bold" fill="#333">Status</text>
-  <text x="560" y="86" font-size="11" font-weight="bold" fill="#333">Action</text>
-
-  <rect x="0" y="94" width="800" height="30" fill="#ffe5e3"/>
-  <text x="16" y="114" font-size="12" fill="#7a1f1a">DEPARTMENT</text>
-  <text x="260" y="114" font-size="12" fill="#7a1f1a">TABLE</text>
-  <text x="400" y="114" font-size="12" fill="#7a1f1a" font-weight="bold">Only in Source (Dev)</text>
-  <text x="560" y="114" font-size="11" fill="#7a1f1a">Create in Prod</text>
-
-  <rect x="0" y="124" width="800" height="30" fill="#fff3cd"/>
-  <text x="16" y="144" font-size="12" fill="#7a5d00">EMPLOYEE</text>
-  <text x="260" y="144" font-size="12" fill="#7a5d00">TABLE</text>
-  <text x="400" y="144" font-size="12" fill="#7a5d00" font-weight="bold">Different</text>
-  <text x="560" y="144" font-size="11" fill="#7a5d00">Alter columns</text>
-
-  <rect x="0" y="154" width="800" height="30" fill="#dceeff"/>
-  <text x="16" y="174" font-size="12" fill="#1a4a7a">BONUS_VIEW</text>
-  <text x="260" y="174" font-size="12" fill="#1a4a7a">VIEW</text>
-  <text x="400" y="174" font-size="12" fill="#1a4a7a" font-weight="bold">Only in Destination (Prod)</text>
-  <text x="560" y="174" font-size="11" fill="#1a4a7a">Review before drop</text>
-
-  <rect x="0" y="184" width="800" height="30" fill="#fff3cd"/>
-  <text x="16" y="204" font-size="12" fill="#7a5d00">CALC_SALARY</text>
-  <text x="260" y="204" font-size="12" fill="#7a5d00">FUNCTION</text>
-  <text x="400" y="204" font-size="12" fill="#7a5d00" font-weight="bold">Different</text>
-  <text x="560" y="204" font-size="11" fill="#7a5d00">Replace source code</text>
-
-  <rect x="0" y="214" width="800" height="26" fill="#f3f5f7"/>
-  <text x="16" y="232" font-size="11" fill="#9aa0a6">EMP_PK</text>
-  <text x="260" y="232" font-size="11" fill="#9aa0a6">INDEX</text>
-  <text x="400" y="232" font-size="11" fill="#9aa0a6">Equal</text>
-  <text x="560" y="232" font-size="11" fill="#bbb">— (ไม่ต้องทำอะไร)</text>
-
-  <rect x="40" y="260" width="720" height="180" fill="#f9fafb" stroke="#d3d9e0"/>
-  <text x="54" y="282" font-size="11" font-weight="bold" fill="#333">รายละเอียดของ Object ที่เลือก (EMPLOYEE) — Source vs Destination</text>
-  <text x="54" y="306" font-size="11" fill="#666">SOURCE (Dev)</text>
-  <text x="420" y="306" font-size="11" fill="#666">DESTINATION (Prod)</text>
-  <text x="54" y="326" font-size="11" fill="#333">EMP_ID        NUMBER(10)</text>
-  <text x="420" y="326" font-size="11" fill="#333">EMP_ID        NUMBER(10)</text>
-  <text x="54" y="346" font-size="11" fill="#a3221c" font-weight="bold">EMAIL         VARCHAR2(100)</text>
-  <text x="420" y="346" font-size="11" fill="#999">(ไม่มี Column นี้)</text>
-  <text x="54" y="366" font-size="11" fill="#333">HIRE_DATE     DATE</text>
-  <text x="420" y="366" font-size="11" fill="#333">HIRE_DATE     DATE</text>
-  <text x="54" y="386" font-size="11" fill="#b8860b" font-weight="bold">SALARY        NUMBER(12,2)</text>
-  <text x="420" y="386" font-size="11" fill="#b8860b" font-weight="bold">SALARY        NUMBER(10,2)</text>
-  <text x="54" y="412" font-size="10" fill="#888">สีแดง = Column มีฝั่ง Source แต่ไม่มีฝั่ง Destination</text>
-  <text x="420" y="412" font-size="10" fill="#888">สีเหลือง/น้ำตาล = มีทั้งคู่แต่ Data Type ต่างกัน</text>
-</svg>
+![Diff Report - ผลลัพธ์การเปรียบเทียบ](assets/diff-report-results.svg)
 
 **ความหมายของสี/สถานะในตาราง:**
 

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="260" fill="#ffffff" stroke="#9aa5b1" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="34" fill="#2f3b52"/>
+  <text x="14" y="22" fill="#ffffff" font-size="14">Oracle SQL Developer</text>
+  <rect x="0" y="34" width="800" height="30" fill="#eef1f5" stroke="#d3d9e0"/>
+  <text x="14" y="54" font-size="13" fill="#333">File</text>
+  <text x="64" y="54" font-size="13" fill="#333">Edit</text>
+  <text x="114" y="54" font-size="13" fill="#333">View</text>
+  <text x="170" y="54" font-size="13" fill="#333">Navigate</text>
+  <text x="250" y="54" font-size="13" fill="#333">Run</text>
+  <text x="300" y="54" font-size="13" fill="#333">Versioning</text>
+  <rect x="385" y="36" width="60" height="26" fill="#cfe0ff"/>
+  <text x="395" y="54" font-size="13" font-weight="bold" fill="#10366b">Tools</text>
+  <text x="460" y="54" font-size="13" fill="#333">Window</text>
+  <text x="525" y="54" font-size="13" fill="#333">Help</text>
+  <rect x="385" y="62" width="230" height="190" fill="#ffffff" stroke="#9aa5b1"/>
+  <text x="398" y="84" font-size="12" fill="#333">Preferences...</text>
+  <line x1="386" y1="92" x2="613" y2="92" stroke="#e5e7eb"/>
+  <text x="398" y="110" font-size="12" fill="#333">SQL*Plus</text>
+  <line x1="386" y1="118" x2="613" y2="118" stroke="#e5e7eb"/>
+  <text x="398" y="136" font-size="12" fill="#333">Database Copy...</text>
+  <line x1="386" y1="144" x2="613" y2="144" stroke="#e5e7eb"/>
+  <rect x="386" y="148" width="227" height="24" fill="#2f6fed"/>
+  <text x="398" y="165" font-size="12" font-weight="bold" fill="#ffffff">Database Diff...</text>
+  <line x1="386" y1="172" x2="613" y2="172" stroke="#e5e7eb"/>
+  <text x="398" y="190" font-size="12" fill="#333">Database Export...</text>
+  <line x1="386" y1="198" x2="613" y2="198" stroke="#e5e7eb"/>
+  <text x="398" y="216" font-size="12" fill="#333">Compare/Synchronize...</text>
+  <polygon points="370,158 386,150 386,166" fill="#2f6fed"/>
+</svg>
